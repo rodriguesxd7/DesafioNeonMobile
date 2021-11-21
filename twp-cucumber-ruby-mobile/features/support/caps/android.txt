@@ -1,0 +1,5 @@
+[caps]
+automationName = "UIAutomator2"
+platformName = "Android"
+deviceName = "DesafioNeon"
+app = "C:\\Users\\rodri\\OneDrive\\Área de Trabalho\\Automation Mobile\\cadastro_clientes_teste.apk"
