@@ -3,8 +3,7 @@ Before do
   driver.manage.timeouts.implicit_wait = 10 #configura um wait de 10 segundos
 
   @nav = Navigator.new
-
-  #find_element(id: "com.android.packageinstaller:id/permission_allow_button").click
+  @insert = PreencherFormScreen.new
 end
 
 After do |scenario|
