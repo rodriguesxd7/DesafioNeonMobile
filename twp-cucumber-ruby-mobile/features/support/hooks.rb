@@ -1,9 +1,11 @@
 Before do
   driver.start_driver #inicia o serivdor do appium
   driver.manage.timeouts.implicit_wait = 10 #configura um wait de 10 segundos
-
+  
   @nav = Navigator.new
   @insert = PreencherFormScreen.new
+  @client = ClienteCriado.new
+  
 end
 
 After do |scenario|
@@ -20,5 +22,5 @@ After do |scenario|
     type: Allure::ContentType::PNG,
     source: File.open(temp_shot),
   )
-  driver.quit_driver #quita o driver
+  #driver.quit_driver #quita o driver
 end
