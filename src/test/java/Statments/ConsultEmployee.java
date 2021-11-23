@@ -49,7 +49,7 @@ public class ConsultEmployee {
                 System.out.println("Campo data nao foi encontrado");
             }
         } else {
-            System.out.println("A requisicao deu certo, porem os dados do campo 'data' nao foram retornados: verificar o motivo");
+            System.out.println("A requisicao deu certo, porem os dados do campo 'data' nao foram retornados");
         }
     }
 }
